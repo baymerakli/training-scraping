@@ -1,8 +1,10 @@
 model\Country.class
+CountryScraper.class
 Main.class
-CountryFiller.class
+model\Entry.class
 model\City.class
 model\PrayTime.class
-PrayTimeFiller.class
+model\DailyBundle.class
+PrayTimeScraper.class
 model\State.class
 model\Base.class

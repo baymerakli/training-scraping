@@ -12,15 +12,15 @@ import java.io.IOException;
 import java.util.Arrays;
 import java.util.List;
 
-public class PrayTimeFiller {
+public class PrayTimeScraper {
 
     private final static String prayTimeURL = "http://www.diyanet.gov.tr/tr/PrayerTime/PrayerTimesList";
 
-    public static void startFilling() {
+    public static void scrape() {
         try {
             System.out.println(System.currentTimeMillis());
             Gson gson = new Gson();
-            JsonReader reader = new JsonReader(new FileReader(PrayTimeFiller.class.getResource("countryList.json").getFile()));
+            JsonReader reader = new JsonReader(new FileReader(PrayTimeScraper.class.getResource("countryList.json").getFile()));
             Country[] countryArray = gson.fromJson(reader, Country[].class);
             System.out.println(System.currentTimeMillis());
             List<Country> countries = Arrays.asList(countryArray);

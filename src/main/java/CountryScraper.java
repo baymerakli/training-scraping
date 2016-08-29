@@ -11,11 +11,11 @@ import java.io.Writer;
 import java.util.ArrayList;
 import java.util.List;
 
-public class CountryFiller {
+public class CountryScraper {
 
     private final static String diyanetURL = "http://www.diyanet.gov.tr/tr/PrayerTime/WorldPrayerTimes";
 
-    public static void getCountries() {
+    public static void scrape() {
         try {
             UserAgent userAgent = new UserAgent();                       //create new userAgent (headless browser).
             userAgent.visit(diyanetURL);                        //visit a url
