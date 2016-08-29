@@ -956,7 +956,7 @@
       <workItem from="1471935860804" duration="27000" />
       <workItem from="1472036352976" duration="6696000" />
       <workItem from="1472204281390" duration="2488000" />
-      <workItem from="1472459914094" duration="6913000" />
+      <workItem from="1472459914094" duration="6919000" />
     </task>
     <task id="LOCAL-00001" summary="Entry Scraper eklendi">
       <created>1472477145593</created>
@@ -965,11 +965,18 @@
       <option name="project" value="LOCAL" />
       <updated>1472477145593</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Entry Scraper eklendi">
+      <created>1472477155961</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1472477155961</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33757000" />
+    <option name="totallyTimeSpent" value="33763000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
