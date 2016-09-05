@@ -1,10 +1,12 @@
-model\Country.class
 CountryScraper.class
-Main.class
-model\Entry.class
-model\City.class
 model\PrayTime.class
+EntryScraper.class
 model\DailyBundle.class
 PrayTimeScraper.class
 model\State.class
+model\Country.class
+Main.class
+model\Entry.class
+tasks\EksiScrapeTask.class
+model\City.class
 model\Base.class
