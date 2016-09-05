@@ -24,7 +24,7 @@ public class Main {
 //        city.setName("YAPRAKLI");
 //        PrayTimeFiller.getCityWithPrayTimes("2","522",city);
 
-        EntryScraper.scrape();
+        EntryScraper.scrapeWithJSoup();
 
 
     }
