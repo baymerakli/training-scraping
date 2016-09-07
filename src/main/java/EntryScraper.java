@@ -59,7 +59,7 @@ public class EntryScraper {
         try {
             org.jsoup.nodes.Document doc = Jsoup.connect("https://eksisozluk.com/debe").get();
 
-            org.jsoup.select.Elements elements = doc.getElementsByAttributeValue("class", "stats topic-list").select("li");
+            org.jsoup.select.Elements elements = doc.getElementsByAttributeValue("class", "stats topic- list").select("li");
 
             DailyBundle dailyBundle = new DailyBundle();
             dailyBundle.setDate(LocalDate.now().toString());
